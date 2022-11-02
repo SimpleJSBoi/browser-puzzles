@@ -1,28 +1,28 @@
 # browser-puzzles
 Some puzzles I made
 
-#Works on
+# Works on
 Made for chromebook
 
-#HOW TO SOLVE THE PUZZLES
+# HOW TO SOLVE THE PUZZLES
 
-#Stop if you don't want to see how
-
-
+# Stop if you don't want to see how
 
 
 
 
 
 
-#wifi.html
+
+
+# wifi.html
 Just disable your wifi
 
-#screenOrientation.html
+# screenOrientation.html
 Rotate your screen 180° with the shortcut Ctrl+Shift+Reload
 
-#contextMenu.html
+# contextMenu.html
 Right-click the page
 
-#proxy.html
+# proxy.html
 Find a proxy on glitch, like [mine](https://sharp-oil-objective.glitch.me), and open this page.
