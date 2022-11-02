@@ -25,4 +25,4 @@ Rotate your screen 180° with the shortcut Ctrl+Shift+Reload
 Right-click the page
 
 #proxy.html
-Find a proxy on glitch, like [mine](https://faithful-snowy-september.glitch.me), and open this page.
+Find a proxy on glitch, like [mine](https://sharp-oil-objective.glitch.me), and open this page.
