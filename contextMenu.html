@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div#context-menu {
+  position: absolute;
+  background-color: #eee;
+  visibility: hidden;
+  padding: 10px;
+  font-size: 10px;
+  font-family: Arial, serif;
+}
+.item:hover {
+  background-color: #ccc;
+}
+</style>
+</head>
+<body>
+<p>
+not solved
+</p>
+<div id="context-menu">
+  <div class="item" onclick="foundme()">
+    Secret!
+  </div>
+</div>
+<script>
+const contextMenu = document.getElementById("context-menu");
+const scope = document;
+
+scope.addEventListener("contextmenu", (event) => {
+  event.preventDefault();
+
+  const { clientX: mouseX, clientY: mouseY } = event;
+
+contextMenu.style.top = mouseY + "px";
+contextMenu.style.left = mouseX + "px";
+
+  contextMenu.style.visibility = "visible";
+});
+scope.addEventListener("click", (e) => {
+  if (e.target.offsetParent !== contextMenu) {
+    contextMenu.style.visibility = "hidden";
+  }
+});
+function foundme() {
+	document.querySelector("p").innerText = "gg";
+  contextMenu.style.visibility = "hidden";
+}
+</script>
+</body>
+</html>
